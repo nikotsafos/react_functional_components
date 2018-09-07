@@ -30,7 +30,7 @@ You can use placekitten or fillmurray if you don't have an image you'd like to d
 
 #### 3. Create another functional component for the Home page called HomePitch. It should include some text about yourself and be located below the HomeImage. 
 
-Note: Home component now contains three functional components as children.
+> Note: Home component now contains three functional components as children.
 
 #### 4. Create a functional component called ContactDetails
 
@@ -44,3 +44,7 @@ This component should have links the following:
 #### BONUS 1: Find Icons for LinkedIn, Email, Resume, and Github. 
 
 #### BONUS 2: On hover of any icon, have the icon change color with your CSS.
+
+#### BONUS 3: Organize your functional components for the Home page into a folder within `src/`.
+
+> Note: This will include changing how you link to them in the import statements!
