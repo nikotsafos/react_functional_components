@@ -20,7 +20,7 @@ class App extends Component {
               <Link to="/">Home</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contactme">Contact Me</Link>
-              <Link to="/hjasgd">Stuff</Link>
+              <Link to="/stuff">Stuff</Link>
             </nav>
             <Route exact path="/" component={Home} />
             <Route path="/projects" component={Projects} />

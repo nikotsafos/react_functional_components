@@ -28,4 +28,22 @@
 }
 
 /* CUSTOM CSS GOES HERE */
+nav a {
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 24px;
+  color: green;
+}
+
+nav a:hover{
+  color: chartreuse;
+}
+
+nav a:visited{
+  color: pink;
+}
+
+nav a:visited:hover{
+  color: hotpink;
+}
 

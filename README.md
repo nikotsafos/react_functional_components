@@ -28,7 +28,12 @@ HomeContent is a functional component, with a prop that's already been done for 
 
 You can use placekitten or fillmurray if you don't have an image you'd like to display.
 
-#### 3. Create another functional component for the Home page called HomePitch. It should include some text about yourself and be located below the HomeImage. 
+#### 3. Create another functional component for the Home page called HomePitch. It should be located below the HomeImage.
+ 
+It should include:
+
+* An `<h3>` tag that says "So why should you hire me?"
+* some text about yourself 
 
 > Note: Home component now contains three functional components as children.
 
