@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Contact from './Contact';
 import Home from './Home';
 import Projects from './Projects';
+import HomeImage from './HomeImage';
+import HomePitch from './HomePitch';
 
 class App extends Component {
   render() {
@@ -19,14 +21,23 @@ class App extends Component {
             <nav>
               <Link to="/">Home</Link>
               <Link to="/projects">Projects</Link>
-              <Link to="/contactme">Contact Me</Link>
-              <Link to="/hjasgd">Stuff</Link>
+              <Link to="/contact">Contact Me</Link>
+              <Link to="/stuff">Stuff</Link>
+              <Link to="/homeImage">Home Image</Link>
+              <Link to="/homePitch">Home Pitch</Link>
             </nav>
             <Route exact path="/" component={Home} />
             <Route path="/projects" component={Projects} />
-            <Route path="/contactme" component={
-              () => (<Contact name="Brandi Butler" />)
+            <Route path="/contact" component={
+              () => (<Contact name="Niko"
+                      email='nikotsafos@gmail.com'
+                      resume='resume'
+                      linkedin='linkedin'
+                      github="github"
+              />)
             } />
+            <Route path="/HomeImage" component={HomeImage} />
+            <Route path="/homePitch" component={HomePitch} />
           </div>
         </Router>
       </div>

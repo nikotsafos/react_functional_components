@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeContent from './HomeContent';
+import HomeImage from './HomeImage';
 import HomePitch from './HomePitch';
 
 const HomeImage = props => (
